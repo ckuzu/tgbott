@@ -23,9 +23,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-ADMIN_IDS = [123456789]  # Замените на ваш ID администратора
-PAYMENTS_PROVIDER_TOKEN = "YOUR_PAYMENTS_PROVIDER_TOKEN_HERE"  # Получите у @BotFather
+BOT_TOKEN = "8187504733:AAFv5KEVbSPeoS2CxPvQFpkc7UjTNZKv1S8"
+ADMIN_IDS = [8077397077]  # Замените на ваш ID администратора
+PAYMENTS_PROVIDER_TOKEN = "1744374395:TEST:87da061d83fedbde8e82"  # Получите у @BotFather
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
